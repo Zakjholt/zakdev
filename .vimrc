@@ -7,6 +7,7 @@ Plug 'elzr/vim-json'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'Valloric/YouCompleteMe'
 Plug 'ternjs/tern_for_vim'
+Plug 'editorconfig/editorconfig-vim'
 call plug#end()
 
 let g:ctrlp_map = '<c-p>'
