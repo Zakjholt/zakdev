@@ -5,9 +5,8 @@ Plug 'othree/javascript-libraries-syntax.vim'
 Plug 'othree/jspc.vim'
 Plug 'elzr/vim-json'
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'chriskempson/base16-vim'
-Plug 'jelera/vim-javascript-syntax'
-Plug 'nanotech/jellybeans.vim'
+Plug 'Valloric/YouCompleteMe'
+Plug 'ternjs/tern_for_vim'
 call plug#end()
 
 let g:ctrlp_map = '<c-p>'
@@ -41,4 +40,4 @@ set lazyredraw
 
 syntax enable
 set background=dark
-colorscheme base16-default-dark
+silent! colorscheme hybrid
