@@ -27,6 +27,10 @@ RUN apt-get install -y nodejs
 # Set default git editor to vim
 RUN git config --global core.editor vim
 
+# Install and config TMUX
+RUN apt-get install -y tmux
+COPY .tmux.conf /root/
+
 # Ready to go
 RUN mkdir /root/dev
 WORKDIR /root/dev
